@@ -16,7 +16,10 @@ function Testimony(props) {
         <p className="testimony-charge">
           {props.charge} at <strong>{props.enterprise}</strong>
         </p>
-        <p className="testimony-text">"{props.testimony}"</p>
+        <p className="testimony-text">
+          "{props.testimony} <strong>{props.quote} </strong>
+          {props.testimony2}"
+        </p>
       </div>
     </div>
   );
